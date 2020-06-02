@@ -1,4 +1,5 @@
-﻿using System;
+﻿using libreriaParaJugador;
+using System;
 
 namespace trabajoEnClases
 {
@@ -6,7 +7,8 @@ namespace trabajoEnClases
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Personaje jugador = new Personaje("Celeste", "NTVG");
+            jugador.MostrarPersonajes();
         }
     }
 }
