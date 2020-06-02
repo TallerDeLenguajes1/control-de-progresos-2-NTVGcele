@@ -1,4 +1,4 @@
-﻿using libreriaParaJugador;
+﻿using entidades;
 using System;
 
 namespace trabajoEnClases

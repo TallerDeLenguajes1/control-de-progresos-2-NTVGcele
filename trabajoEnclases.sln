@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trabajoEnClases", "trabajoEnClases\trabajoEnClases.csproj", "{15911071-8D9F-4BF3-8F85-2F46DF0D0050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libreriaParaJugador", "..\libreriaParaJugador\libreriaParaJugador.csproj", "{3ADDCA23-B1EE-4A72-B1B7-E3B2D41A7536}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entidades", "entidades\entidades.csproj", "{0BC9747F-6853-448C-AA9D-E6385F7E8BD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{15911071-8D9F-4BF3-8F85-2F46DF0D0050}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15911071-8D9F-4BF3-8F85-2F46DF0D0050}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15911071-8D9F-4BF3-8F85-2F46DF0D0050}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3ADDCA23-B1EE-4A72-B1B7-E3B2D41A7536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3ADDCA23-B1EE-4A72-B1B7-E3B2D41A7536}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3ADDCA23-B1EE-4A72-B1B7-E3B2D41A7536}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3ADDCA23-B1EE-4A72-B1B7-E3B2D41A7536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC9747F-6853-448C-AA9D-E6385F7E8BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC9747F-6853-448C-AA9D-E6385F7E8BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC9747F-6853-448C-AA9D-E6385F7E8BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC9747F-6853-448C-AA9D-E6385F7E8BD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
