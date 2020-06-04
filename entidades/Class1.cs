@@ -2,7 +2,7 @@
 
 namespace entidades
 {
-        public enum Tipo
+    public enum Tipo
         {
             Humano,
             Animal,
@@ -30,6 +30,21 @@ namespace entidades
         public Caracteristicas Caract { get => caract; set => caract = value; }
         public Datos Dat { get => dat; set => dat = value; }
         public int Id { get => id; set => id = value; }
+
+        public void Atacar(Personaje Enemigo)
+        {
+            int PD= Enemigo.Caract.Destreza * Enemigo.Caract.Fuerza * Enemigo.caract.Nivel;
+            int ED = new Random().Next(1, 100);
+            int VA = PD * ED;
+        //Valores de defensa
+            int PDEF = Caract.Armadura * Caract.Velocidad;
+        //Resultado del ataque
+            int MDP = 50000;
+            int DP = (((VA * ED) - PDEF) / MDP) * 100;
+            Dat.Salud = Dat.Salud - DP;
+            
+
+        }
 
         public void MostrarPersonajes()
         {
